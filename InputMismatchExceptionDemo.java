@@ -1,4 +1,4 @@
-package Akanksha.labassignment4;
+package akanksha.labassignment4;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class InputMismatchExceptionDemo {
@@ -10,7 +10,7 @@ public class InputMismatchExceptionDemo {
 		{
 			try
 			{
-			System.out.println("“Please enter a number or enter ‘-1’ if you want to quit” : ");
+			System.out.println("â€œPlease enter a number or enter â€˜-1â€™ if you want to quitâ€ : ");
 			number=sc.nextInt();
 			if(number==-1)
 			{
@@ -18,14 +18,14 @@ public class InputMismatchExceptionDemo {
 				continue;
 			}
 			if(number%2==0)
-				System.out.println("“You have entered an even integer. ”");
+				System.out.println("â€œYou have entered an even integer. â€");
 			else
-				System.out.println("“You have entered an odd number. ”");
+				System.out.println("â€œYou have entered an odd number. â€");
 				
 			}
 			catch(InputMismatchException e)
 			{
-				System.out.println("“You must enter an integer.”");
+				System.out.println("â€œYou must enter an integer.â€");
 			}
 			sc.nextLine();
 		}while(flag);
