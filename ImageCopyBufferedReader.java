@@ -1,4 +1,4 @@
-package Akanksha.labassignment4;
+package akanksha.labassignment4;
 import java.io.*;
 public class ImageCopyBufferedReader {
  
